@@ -22,4 +22,8 @@ la var postclasf "Scores for Classification test - post"
 la var viewenc "Received free-cable TV"
 la var regular "Watched Sesame Street regularly"
 
+sum age
+tab sex
+
 save sesame_analysis, replace
+
