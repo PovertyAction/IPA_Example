@@ -1,0 +1,1 @@
+This repository is set up to allow IPA staff to learn GitHub.
