@@ -1,3 +1,5 @@
+cd "C:\Users\mbombyk\Desktop\GitHub\IPA_Example\open_sesame"
+
 use sesame.dta, clear
 
 keep  id site sex age viewenc pre* post* regular
@@ -24,6 +26,10 @@ la var regular "Watched Sesame Street regularly & loves Big Bird"
 
 sum age
 tab sex
+
+tostring id site, replace
+
+recode sex viewenc (2=0)
 
 save sesame_analysis, replace
 
