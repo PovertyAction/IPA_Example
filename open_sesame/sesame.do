@@ -2,7 +2,7 @@ cd "C:\Users\mbombyk\Desktop\GitHub\IPA_Example\open_sesame"
 
 use sesame.dta, clear
 
-keep  id site sex age viewenc pre* post* regular
+keep  id site age viewenc pre* post* regular
 
 la var id "ID"
 la var site "Site"
