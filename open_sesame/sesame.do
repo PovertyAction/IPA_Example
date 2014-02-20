@@ -21,7 +21,9 @@ la var postnumb "Scores for numbers - post"
 la var postform "Scores for forms test - post
 la var postrelat "Scores for Relational test - post"
 la var postclasf "Scores for Classification test - post"
+
 la var viewenc "Received free-cable TV"
+
 la var regular "Watched Sesame Street regularly & loves Big Bird"
 
 sum age
