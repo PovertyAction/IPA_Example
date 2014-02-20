@@ -25,7 +25,7 @@ la var preclasf "Scores for Classification test - Pre"
 
 la var viewenc "Received free-cable TV"
 
-la var regular "Watched Sesame Street regularly & loves Big Bird"
+la var abnormal "Watched Sesame Street regularly & loves Big Bird"
 
 sum age
 tab sex
